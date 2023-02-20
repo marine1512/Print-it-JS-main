@@ -149,11 +149,10 @@ header {
 }
 
 .dot {
-	width: 19px;
-	height: 19px;
+	width: 11px;
+	height: 11px;
 	border-radius: 100%;
-	background: #fff;
-	border: 2px solid black;
+	border: 2px solid #fff;
 }
 .dot_selected {
 	background-color: #fff;
