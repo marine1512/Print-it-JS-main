@@ -110,6 +110,7 @@ header {
 	min-height: 470px;
 	position: relative;
 	overflow: hidden;
+	
 }
 
 .banner-img {
@@ -121,6 +122,7 @@ header {
 	object-position: center;
 	display: flex;
 }
+
 
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
@@ -137,28 +139,26 @@ header {
 }
 /* Gestion des points du carrousel */
 .dots {
-	position: absolute;
-	bottom: 40px;
-	display: flex;
+	text-align: center;
+	margin: 0;
 }
+
 .dot {
 	margin-inline: 5px;
 	width: 29px;
 	height: 22px;
-	background-color: #ffffff00;
+	border:  1px solid #fff;
+	border-radius: 100%;
 	position: absolute;
 	display: flex;
-	flex-direction: row;
 	bottom: 17px;
+	cursor: pointer;
+	outline: none;
+
 }
 .dot_selected {
 	background-color: #fff;
 }
-
-
-
-
-
 
 /* Fin du code CSS pour le carousel */
 #banner p {

@@ -28,7 +28,7 @@ function ChangeSlide(sens) {
         numero = 3;
     
     document.getElementById('slide').src = "./assets/images/slideshow/" + slide[numero];
-    document.getElementsByClassName('dot-selected')
-    const point = document.querySelector('.dot');
     
 }
+
+let dots = 5;
