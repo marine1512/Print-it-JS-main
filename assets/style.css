@@ -139,22 +139,21 @@ header {
 }
 /* Gestion des points du carrousel */
 .dots {
-	text-align: center;
-	margin: 0;
-}
-
-.dot {
 	margin-inline: 5px;
-	width: 29px;
-	height: 22px;
-	border:  1px solid #fff;
-	border-radius: 100%;
 	position: absolute;
 	display: flex;
 	bottom: 17px;
 	cursor: pointer;
 	outline: none;
+	gap: 15px;
+}
 
+.dot {
+	width: 19px;
+	height: 19px;
+	border-radius: 100%;
+	background: #fff;
+	border: 2px solid black;
 }
 .dot_selected {
 	background-color: #fff;
