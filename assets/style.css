@@ -154,7 +154,7 @@ header {
 	border-radius: 100%;
 	border: 2px solid #fff;
 }
-.dot_selected {
+.dots .dot_selected {
 	background-color: #fff;
 }
 
