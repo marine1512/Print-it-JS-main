@@ -20,16 +20,6 @@ const slide = [
 const nbr = slide.length;
 let numero = 0;
 
-function ChangeSlide(sens) {
-    numero = numero + sens;
-    if (numero > 3) 
-        numero = 0;
-    if (numero < 0)
-        numero = 3;
-	  
-    document.getElementById('slide').src = "./assets/images/slideshow/" + slide[numero].image;
-    document.getElementById('texte').innerHTML = slide[numero].tagLine;
-};
 
 const dots = document.querySelector('.dots');
 
@@ -70,7 +60,8 @@ document
             numero = nbr - 1
             dot[nbr - 1].classList.add('dot_selected')
             dot[numero].classList.remove('dot_selected')
-        } else {
+        } 
+        else {
             numero --
             dot[nbr - 1].classList.add('dot_selected')
             dot[numero].classList.remove('dot_selected')
